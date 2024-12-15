@@ -1,0 +1,747 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    border-bottom: 2px solid #f06c00;
+    /* Adjust the color for the bottom border */
+}
+
+.navbar-brand img {
+    height: 50px;
+    /* Adjust logo size */
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #f06c00;
+}
+
+.call-info {
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+
+
+}
+
+.myacont {
+    display: flex;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top: 10px;
+    background-color: #f06c00;
+    color: aliceblue;
+    justify-content: center;
+
+}
+
+.myacont i {
+    position: relative;
+    top: 5px;
+}
+
+.myacont a i {
+    position: relative;
+    top: 1px;
+}
+
+/* .product-highlight { */
+/* background-color: #f0f8ff; */
+/* border-radius: 10px; */
+/* padding: 50px; */
+/* } */
+.discount-badge {
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px 15px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now-btn {
+    /* background-color: f06c00; */
+    background-color: #f06c00;
+
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.buy-now-btn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.side-product {
+    /* background-color: #f0f8ff; */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sp1 {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://klbtheme.com/medibazar/wp-content/uploads/2020/10/b-02.jpg');
+
+}
+
+.side-product a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+
+}
+
+.side-product .sp1main {
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+
+
+.sp2 {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://klbtheme.com/medibazar/wp-content/uploads/2020/10/b-03.jpg');
+}
+
+.sp1main a {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.product-highlight {
+    /* padding: 0%; */
+    /* margin: 0%; */
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position-y: center; */
+    /* background-attachment: fixed; */
+    background-image: url('	https://klbtheme.com/medibazar/wp-content/uploads/2020/10/b-01.jpg');
+    /* background-image:; */
+}
+
+.productmain {
+    height: 500px;
+    gap: 0px;
+}
+
+.Aloe {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    line-height: 20px;
+}
+
+.Aloe .fw-bold {
+    font-size: 60px;
+}
+
+.sideproduct {
+    position: relative;
+    left: -40px;
+}
+
+.corouselmain {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* gap: 0.1px; */
+    /* background: #000; */
+}
+
+.onestproduct {
+    text-align: left;
+
+}
+
+.onestproduct p {
+    font-size: 13px;
+}
+
+.corousel1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+.card {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+.card.fast-delivery {
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+}
+
+.card.coupon-savings {
+    background: linear-gradient(135deg, #4caf50, #8bc34a);
+}
+
+.card.custom-order {
+    background: linear-gradient(135deg, #3f51b5, #2196f3);
+}
+
+.card.female-care {
+    background: linear-gradient(135deg, #e91e63, #f06292);
+}
+
+.card .card-title {
+    font-size: 15px;
+}
+
+.cardmain {
+    display: flex;
+    flex-direction: row;
+}
+
+.card .btn {
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    font-size: 12px;
+}
+
+.card .btn:hover {
+    background-color: #f0f0f0;
+}
+
+.card p {
+    font-size: 13px;
+}
+
+
+
+
+.step {
+    text-align: center;
+}
+
+.step-circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f8e8c4;
+    /* Default color */
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.step:nth-child(2) .step-circle {
+    background-color: #cce5ff;
+    /* Light Blue */
+}
+
+.step:nth-child(3) .step-circle {
+    background-color: #d4f8c4;
+    /* Light Green */
+}
+
+.step:nth-child(4) .step-circle {
+    background-color: #d8c4f8;
+    /* Light Purple */
+}
+
+.step-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mainyourorder {
+    padding-top: 15px;
+    border: 1px solid rgb(192, 185, 185);
+}
+
+.banner {
+    padding: 1rem 1rem;
+
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.discover-btn {
+    background-color: #00c4cc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
+    width: 150px;
+}
+
+.discover-btn:hover {
+    background-color: #00b1b9;
+    color: #fff;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.bannerbg {
+    padding-bottom: 50px;
+
+}
+
+.banner-text {
+    position: relative;
+    left: 30px;
+
+}
+
+
+
+#product1 {
+    /* margin-left: 10%; */
+    padding: 0%;
+    text-align: center;
+    overflow-x: hidden;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro .image-p {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#product1 .pro {
+    width: 250px;
+
+    border: 1px solid lavender;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product1 .pro img {
+    width: 60%;
+    height: 200px;
+    /* border-radius: 20px; */
+}
+
+
+#product1 .pro .des {
+    text-align: start;
+    /* padding: 10px 0; */
+    text-align: center;
+    /* align-items: center; */
+}
+
+#product1 .pro .des span {
+    color: rgb(44, 101, 103);
+    font-size: 12px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* position: relative; */
+    /* left: 70px; */
+
+}
+
+#product1 .pro .des h6 {
+    padding-top: 7px;
+    color: #222;
+    text-align: center;
+
+}
+
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: gold;
+    /* position: relative; */
+    /* left: 80px;  */
+
+}
+
+#product1 .pro .des h4 {
+    /* padding-top: 7px; */
+    font-size: 15px;
+    font-weight: 700;
+    color: teal;
+    /* text-align: center; */
+    /* position: relative; */
+    /* left: 100px; */
+    /* top: -36px; */
+
+}
+
+#product1 .pro .des p {
+    /* padding-top: 7px; */
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(148, 149, 149);
+    /* text-align: center; */
+    text-decoration: line-through;
+    /* position: relative; */
+    /* left: 50px; */
+    /* top: 36px; */
+
+}
+
+
+#product1 .pro .btn {
+
+    /* line-height: 40px; */
+    /* background-color: rgb(14, 14, 14); */
+    font-weight: 500px;
+    color: rgb(245, 249, 245);
+    text-align: center;
+    /* margin: 10px; */
+    /* margin-top: -20px; */
+
+
+}
+
+#product1 .pro #new {
+    position: relative;
+    left: -100px;
+    /* float: left; */
+    top: 16px;
+    font-size: 10px;
+}
+
+
+#product1 .pro #per {
+    position: relative;
+    /* left: 140px; */
+    top: -3px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.details p {
+    position: relative;
+    top: 4px;
+
+
+}
+
+.pro-container {
+    gap: 0px;
+}
+
+.stats-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.stats-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.app-download input {
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+.footer {
+    /* background-color: #f8f9fa; */
+    padding: 40px 20px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.social-icons i:hover {
+    color: #000;
+}
+
+.payment-icons img {
+    max-height: 40px;
+    margin: 5px;
+}
+
+.Copyright {
+    height: 50px;
+    width: 100%;
+    background-color: #f06c00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.Copyright a {
+    color: whitesmoke;
+}
+
+/* for responsive */
+
+
+@media (max-width: 475px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        max-width: 475px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .productmain {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        /* width: 420px; */
+        position: relative;
+        /* left: 10px; */
+    }
+
+    .product-highlight {
+        width: 420px;
+
+        background-size: cover;
+        border-radius: 10px;
+        padding: 20px 0px;
+        text-align: center;
+        height: 250px;
+    }
+
+    .Aloe {
+        position: static;
+        line-height: normal;
+    }
+
+    .forhoiroil .Aloe h1 {
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+
+    .forhoiroil .Aloe h2 {
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 40px;
+    }
+
+    .forhoiroil .Aloe p {
+        font-size: 14px;
+        line-height: 1.5;
+        display: none;
+    }
+
+    .forhoiroil .buy-now-btn {
+        padding: 10px 20px;
+        font-size: 10px;
+        position: relative;
+        top: 50px;
+        /* left: -20px; */
+
+    }
+
+    .discount {
+        position: static;
+        /* margin-top: 20px; */
+    }
+
+    .discount-badge {
+        height: 60px;
+        width: 60px;
+        font-size: 14px;
+        position: relative;
+        top: -15px;
+        left: 45px;
+    }
+
+    .sideproduct {
+        position: static;
+        left: 0;
+    }
+
+    .side-product {
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .sp1,
+    .sp2 {
+        height: 200px;
+    }
+
+    .sp1main h5,
+    .sp1main h3 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .sp1main a {
+        font-size: 14px;
+    }
+
+    .banner-text .text-muted{
+        position: relative;
+        left: -30px;
+
+    }
+    .banner-text h2{
+        position: relative;
+        left: -30px;
+    }
+    .banner-text a{
+        position: relative;
+        left: 50px;
+    }
+   .app-download {
+    gap: 20px;
+   }
+   .footer{
+    text-align: center;
+   }
+
+   #product1 .pro-container{
+    gap: 20px;
+   }
+
+   #product1 .pro-container .pro{
+    padding-bottom: 10px;
+   }
+
+
+
+
+
+}
+
+
+@media (max-width: 320px) {
+    header p{
+        font-size: small;
+    } 
+    .navbar .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .navbar .container .call-info{
+        position: relative;
+        left: 70px;
+    }
+
+    .navbar-brand{
+        position: relative;
+        left: -15px;
+    }
+
+    .myacont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .myacont i {
+        font-size: 18px;
+    }
+
+    .myacont .nav-link {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: -40px;
+    }
+
+
+}
+
